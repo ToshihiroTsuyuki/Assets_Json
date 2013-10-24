@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_referesh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_label_get" >
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/a_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="【aseets内のデータ取得】" />
+
+            <TextView
+                android:id="@+id/a_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="【title】\n" />
+
+            <TextView
+                android:id="@+id/a_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="【a_created_at】\n" />
+            <TextView
+                android:id="@+id/a_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="【sha】\n" />
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="【全体】" />
+
+           
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
